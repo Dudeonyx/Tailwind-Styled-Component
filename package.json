@@ -23,7 +23,7 @@
         "build:types": "tsc -p tsconfig.types.json",
         "prebuild": "npm run clean",
         "prepare": " npm run build",
-        "postinstall": " yarn run build",
+        "prepack": " yarn run build",
         "postbuild": "npm run build:types && npm run test",
         "clean": "rimraf dist",
         "test": "jest",
