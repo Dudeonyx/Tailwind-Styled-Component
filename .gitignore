@@ -67,8 +67,8 @@ typings/
 .next
 
 # npm build output
-dist/
-build/
+src/
+example/
 
 .sonarlint/
 
